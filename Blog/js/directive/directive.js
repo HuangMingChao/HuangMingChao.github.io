@@ -4,6 +4,6 @@
  angular.module('app').directive("hmcHeader",function(){
      return {
          restrict:'E',
-         templateUrl:'../../view/header.html',
+         templateUrl:'../../Blog/view/header.html',
      }
  })
