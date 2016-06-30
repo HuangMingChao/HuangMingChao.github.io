@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html lang="en" ng-app="app">
+<html lang="en" ng-app="app" style="height: 100%">
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/headerCss.css">
 
     <title>欢迎来到hmc的个人主页</title>
     <script src="node_modules/angular/angular.min.js"></script>
@@ -11,11 +12,13 @@
     <script src="js/directive/directive.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </head>
-<body>
+<body style="height: 100%" ng-controller="indexController">
    <!--头部-->
   <hmc-header></hmc-header>
   <!--内容区-->
-  <hmc-content></hmc-content>
+  <hmc-content>
+
+  </hmc-content>
   <!--底部-->
   <hmc-footer></hmc-footer>
 </body>
