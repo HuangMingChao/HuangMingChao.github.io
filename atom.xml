@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Mr.H的小木屋</title>
+  
+  
+  <link href="//atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2018-01-02T01:37:32.441Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>Mr.H</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>利用hexo在github上搭建个人博客</title>
+    <link href="http://yoursite.com/2017/12/29/%E5%88%A9%E7%94%A8hexo%E5%9C%A8github%E4%B8%8A%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
+    <id>http://yoursite.com/2017/12/29/利用hexo在github上搭建个人博客/</id>
+    <published>2017-12-29T07:27:08.860Z</published>
+    <updated>2018-01-02T01:37:32.441Z</updated>
+    
+    <content type="html"><![CDATA[<p>1.安装git  </p><p>2.安装npm</p><p>3.安装hexo</p><p>4.配置github</p><p>5.编辑文章</p><h4 id="安装git"><a href="#安装git" class="headerlink" title="安装git"></a>安装git</h4><p>在git官网下载安装程序,按流程安装好即可;</p><h4 id="安装npm"><a href="#安装npm" class="headerlink" title="安装npm"></a>安装npm</h4><p>在Node.js官网下载并安装好node即可;</p><h4 id="安装hexo"><a href="#安装hexo" class="headerlink" title="安装hexo"></a>安装hexo</h4><p>当node安装完成之后,我们就可以利用npm这个包管理工具来安装hexo了。</p><p>打开命令行，输入一下命令对hexo进行安装。</p><pre><code>$ npm install  hexo-cli -g</code></pre><h4 id="运行hexo"><a href="#运行hexo" class="headerlink" title="运行hexo"></a>运行hexo</h4><p>  1.初始化hexo</p><pre><code>$ D:  $ hexo init blog$ hexo s</code></pre><p>上述命令为在D盘初始化了一个名叫blog的hexo项目,该项目可以通过命令  hexo s启动;</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;1.安装git  &lt;/p&gt;
+&lt;p&gt;2.安装npm&lt;/p&gt;
+&lt;p&gt;3.安装hexo&lt;/p&gt;
+&lt;p&gt;4.配置github&lt;/p&gt;
+&lt;p&gt;5.编辑文章&lt;/p&gt;
+&lt;h4 id=&quot;安装git&quot;&gt;&lt;a href=&quot;#安装git&quot; class=&quot;headerlink&quot; title=&quot;安装
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
